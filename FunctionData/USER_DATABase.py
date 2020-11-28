@@ -1,0 +1,36 @@
+USERID_FOR_MASSLOOKER = [
+"tik.tok.maroc10",
+    "tik.tok_video_maroc",
+    "tik.tok.maroco",
+    "simosedraty",
+    "adiltaouil",
+    "reda_elwahabii",
+    "omarbelmir",
+    "rajaabelmir",
+    "meryemasouab",
+    "kawtarbamo",
+    "chadia.arsalan",
+    "salmarachid.official",
+    "ibtissamtiskatofficial",
+    "saadlamjarred1",
+    "zouhairbahaoui",
+    "l7or75",
+    "nouamanbelaiachi",
+    "douziofficial",
+    "allalirachid",
+    "aminuxamine",
+    "hatimammor"
+    ]
+
+USERID_FOR_INSHACKLE = [
+"chouftv_official",
+    "hespress",
+    "welovebuzzar",
+    "kawtarbamo",
+    "rajaabelmir",
+    "reda_elwahabii",
+    "omarbelmir",
+    "adiltaouil",
+    "meryemasouab",
+    "manalbenchlikha",
+    ]
