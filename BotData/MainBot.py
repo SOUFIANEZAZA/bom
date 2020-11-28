@@ -88,7 +88,7 @@ def ig_masslooker():
                     bot.logger.info("Total stories viewed: %d" % bot.total["stories_viewed"])
 
                 # CHOOSE RANDOM LIKER TO GRAB HIS LIKERS AND REPEAT
-                countdown(1)
+                countdown(0)
             except Exception as e:
                 # If something went wrong - sleep long and start again
                 bot.logger.info(e)
