@@ -13,9 +13,9 @@ from MokupData.mokupfun import *
 from BotData.ConfiG import *
 #Men@c
 bot = Bot(
-    max_likes_per_day=400,
-    max_follows_per_day=240,
-    max_unfollows_per_day=240,
+    max_likes_per_day=300,
+    max_follows_per_day=100,
+    max_unfollows_per_day=100,
     max_messages_per_day=100,
     max_comments_per_day=100,
     min_likes_to_like=10,
@@ -169,7 +169,7 @@ def ig_inshackle():
             countdown(counter_time=1800)
             bot.unfollow_users(user_ids=USERID_FOR_INSHACKLE)
             print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
-            countdown(120)
+            countdown(0)
             print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
         except KeyboardInterrupt:
             break
@@ -205,7 +205,7 @@ def ig_directmessage():
     print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
     while True:
         try:
-            USER = bot.get_hashtag_users(hashtag="CASABLANCA")
+            USER = bot.get_hashtag_users(hashtag="تحفيز")
             USER_IDD = random.choice(USER)
             NAME = bot.get_username_from_user_id(USER_IDD)
             FULL_TEXT = ("Hi "+NAME+", "+INUsrp_TEXT)
