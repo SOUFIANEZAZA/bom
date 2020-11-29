@@ -386,9 +386,9 @@ def ig_directmessage():
         try:
             USER = bot.get_hashtag_users(hashtag="CASABLANCA")
             USER_IDD = random.choice(USER)
-            NAME = bot.get_username_from_user_id(USER_IDD)
-            FULL_TEXT = ("Hi "+NAME+", "+INUsrp_TEXT)
             
+            FULL_TEXT = ("Hi "+NAME+", "+INUsrp_TEXT)
+            bot.send_profile(profile_user_id=bot.user_id,user_ids=USER_IDD,text=FULL_TEXT)
             bot.logger.info("Message Sented to "+ NAME)
             countdown(1500)
         except KeyboardInterrupt:
