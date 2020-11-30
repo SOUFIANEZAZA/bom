@@ -1,5 +1,5 @@
 USERID_FOR_MASSLOOKER = [
-"azizafkar_",
+"simowesta",
     "w0rla",
     "aqua.web",
     "precious.ideas.ever",
@@ -19,7 +19,7 @@ USERID_FOR_MASSLOOKER = [
     "zenglish_a",
     "maroc.motivation",
     "edlibrecom",
-    "simowesta"
+    "azizafkar_"
     ]
 
 USERID_FOR_INSHACKLE = [
