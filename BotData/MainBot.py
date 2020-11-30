@@ -169,7 +169,7 @@ def ig_inshackle():
             countdown(counter_time=1800)
             bot.unfollow_users(user_ids=USERID_FOR_INSHACKLE)
             print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
-            countdown(0)
+            countdown(60)
             print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
         except KeyboardInterrupt:
             break
