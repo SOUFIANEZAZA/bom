@@ -1,5 +1,5 @@
 #Importing Modules
-import requests
+import 'requests'
 
 #Importing Mi Func...
 from FunctionData.somefun import clear
