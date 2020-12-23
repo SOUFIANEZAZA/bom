@@ -1,5 +1,4 @@
 USERID_FOR_MASSLOOKER = [
-"azizafkar_",
     "w0rla",
     "aqua.web",
     "precious.ideas.ever",
