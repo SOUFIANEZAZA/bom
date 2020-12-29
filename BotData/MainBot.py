@@ -205,7 +205,7 @@ def ig_directmessage():
     print("\u001b[33;1m-------------------------------------------------------\u001b[0m")
     while True:
         try:
-            USER = bot.get_hashtag_users(hashtag="إيجابي")
+            USER = bot.get_hashtag_users(hashtag="إشتري_لبيتك_من_بيتك")
             USER_IDD = random.choice(USER)
             NAME = bot.get_username_from_user_id(USER_IDD)
             FULL_TEXT = ("salam "+NAME+", "+INUsrp_TEXT)
