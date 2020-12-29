@@ -1,8 +1,8 @@
 USERID_FOR_MASSLOOKER = [
-    "w0rla",
-    "aqua.web",
-    "precious.ideas.ever",
-    "azecon",
+    "e.comacademy",
+    "maysmo_millionaires",
+    "mohamed.3_annouri",
+    "arabic_billionaire",
     "taswikdotcom",
     "mofedoon",
     "arabsbusiness",
