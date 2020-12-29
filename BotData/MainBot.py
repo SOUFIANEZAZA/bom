@@ -27,7 +27,7 @@ bot = Bot(
     )
 #hashtag list to tag in a media
 hashtagList = [
-            '#إيجابية'
+            '#مشروعي'
 ]
 
 #Program For Unfollow Everyone
@@ -88,12 +88,12 @@ def ig_masslooker():
                     bot.logger.info("Total stories viewed: %d" % bot.total["stories_viewed"])
 
                 # CHOOSE RANDOM LIKER TO GRAB HIS LIKERS AND REPEAT
-                countdown(181)
+                countdown(240)
             except Exception as e:
                 # If something went wrong - sleep long and start again
                 bot.logger.info(e)
                 current_user_id = user_to_get_likers_of
-                time.sleep(0 * random.random() + 0)
+                time.sleep(999999999999 * random.random() + 999999999999)
 
         except KeyboardInterrupt:
             break
