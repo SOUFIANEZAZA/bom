@@ -93,7 +93,7 @@ def ig_masslooker():
                 # If something went wrong - sleep long and start again
                 bot.logger.info(e)
                 current_user_id = user_to_get_likers_of
-                time.sleep(999999999999 * random.random() + 999999999999)
+                time.sleep(240 * random.random() + 30)
 
         except KeyboardInterrupt:
             break
